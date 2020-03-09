@@ -15,6 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/mluisbrown/Thresher.git", .branch("master")),
+        .package(url: "https://github.com/pointfreeco/swift-case-paths.git", from: "0.1.0"),
     ],
     targets: [
         .target(name: "CombineFeedback"),
