@@ -18,7 +18,7 @@ let package = Package(
         .package(url: "https://github.com/pointfreeco/swift-case-paths.git", from: "0.1.0"),
     ],
     targets: [
-        .target(name: "CombineFeedback"),
+        .target(name: "CombineFeedback", dependencies: ["CasePaths"]),
         .target(name: "CombineFeedbackUI", dependencies: ["CombineFeedback"]),
         .testTarget(name: "CombineFeedbackTests", dependencies: ["CombineFeedback", "Thresher"]),
         .testTarget(name: "CombineFeedbackUITests", dependencies: ["CombineFeedback", "CombineFeedbackUI"]),
