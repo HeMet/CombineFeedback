@@ -12,7 +12,7 @@
       },
       {
         "package": "Thresher",
-        "repositoryURL": "git@github.com:mluisbrown/Thresher.git",
+        "repositoryURL": "https://github.com/mluisbrown/Thresher.git",
         "state": {
           "branch": "master",
           "revision": "37b1067465d726383c3da93db6886ac633b58847",

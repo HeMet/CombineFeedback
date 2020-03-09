@@ -51,7 +51,7 @@
 		58751A9A23ECBCA000EEF398 /* FeedbackLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58751A9923ECBCA000EEF398 /* FeedbackLoop.swift */; };
 		58C6E5E022A9F027005A9685 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6E5DF22A9F027005A9685 /* Movies.swift */; };
 		58C6E5E722AB14DB005A9685 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C6E5E622AB14DB005A9685 /* AsyncImage.swift */; };
-		74936CB4231D7579000DB91D /* Thresher in Frameworks */ = {isa = PBXBuildFile; productRef = 74936CB3231D7579000DB91D /* Thresher */; };
+		846BD960241651210017A041 /* Thresher in Frameworks */ = {isa = PBXBuildFile; productRef = 846BD95F241651210017A041 /* Thresher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,7 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5800FF9A22A89BE6005A860B /* CombineFeedback.framework in Frameworks */,
-				74936CB4231D7579000DB91D /* Thresher in Frameworks */,
+				846BD960241651210017A041 /* Thresher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,7 +528,7 @@
 			);
 			name = CombineFeedbackTests;
 			packageProductDependencies = (
-				74936CB3231D7579000DB91D /* Thresher */,
+				846BD95F241651210017A041 /* Thresher */,
 			);
 			productName = CombineFeedbackTests;
 			productReference = 5800FF9922A89BE6005A860B /* CombineFeedbackTests.xctest */;
@@ -655,8 +655,8 @@
 			);
 			mainGroup = 5800FF8622A89BE6005A860B;
 			packageReferences = (
-				74936CB2231D7579000DB91D /* XCRemoteSwiftPackageReference "Thresher" */,
 				2511BEF123F20F3000B41C3E /* XCRemoteSwiftPackageReference "swift-case-paths" */,
+				846BD95E241651210017A041 /* XCRemoteSwiftPackageReference "Thresher" */,
 			);
 			productRefGroup = 5800FF9122A89BE6005A860B /* Products */;
 			projectDirPath = "";
@@ -1296,9 +1296,9 @@
 				minimumVersion = 0.1.0;
 			};
 		};
-		74936CB2231D7579000DB91D /* XCRemoteSwiftPackageReference "Thresher" */ = {
+		846BD95E241651210017A041 /* XCRemoteSwiftPackageReference "Thresher" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:mluisbrown/Thresher.git";
+			repositoryURL = "https://github.com/mluisbrown/Thresher.git";
 			requirement = {
 				branch = master;
 				kind = branch;
@@ -1312,9 +1312,9 @@
 			package = 2511BEF123F20F3000B41C3E /* XCRemoteSwiftPackageReference "swift-case-paths" */;
 			productName = CasePaths;
 		};
-		74936CB3231D7579000DB91D /* Thresher */ = {
+		846BD95F241651210017A041 /* Thresher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 74936CB2231D7579000DB91D /* XCRemoteSwiftPackageReference "Thresher" */;
+			package = 846BD95E241651210017A041 /* XCRemoteSwiftPackageReference "Thresher" */;
 			productName = Thresher;
 		};
 /* End XCSwiftPackageProductDependency section */
